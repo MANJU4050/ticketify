@@ -1,0 +1,25 @@
+.statuscard{
+    background-color: white;
+    width: 260px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(132, 129, 129,0.3);
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.statuscard .cardtitle p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(121, 121, 121, 0.8);
+}
+
+.statuscard .cardvalue p{
+    font-size: 3rem;
+    font-weight: 600;
+}

@@ -1,0 +1,29 @@
+.sidebaritems p{
+    color: #A4A6B3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sidebaritems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.sidebaricon{
+    flex-grow: 1;
+   padding-left: 20px;
+}
+
+.icon{
+    color: grey; 
+}
+
+.sidebaritemp{
+    flex-grow: 4;
+   
+}

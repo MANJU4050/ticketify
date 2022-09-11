@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Tickets from './Components/Tickets';
+import Dashboard from './Components/Dashboard';
+import Login from './Components/Login';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
+library.add(fas)
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Routes>
+      <Route path='/' element={<Login/>} />
+      <Route path='/dashboard' element={<Dashboard/>} />
+      <Route path='/tickets' element={<Tickets/>} />
+    </Routes>
+
+  </Router>
+
+   
   );
 }
 
