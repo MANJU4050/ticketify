@@ -1,0 +1,111 @@
+.loginouter{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 42, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login{
+    width: 310px;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.loginheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credentials{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.forget{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+input[type=email]{
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+input[type=password]{
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.loginbutton button{
+    width: 280px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.loginbutton button:hover{
+    cursor: pointer;
+    background-color: rgb(33, 33, 248);
+}
+
+.credentials p{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: grey;
+
+}
+
+.credentials span{
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.brand p{
+    font-size: 1.1rem;
+}
+
+.loginheading span{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.create p{
+color: blue;
+cursor: pointer;
+}
+
+.create span{
+    color: grey;
+
+}
+
+.logoimage{
+    width: 50px;
+    height: 50px;
+}
+
+.loginlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

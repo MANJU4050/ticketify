@@ -1,6 +1,6 @@
 .main{
     background-color: #F7F8FC;
-    height: 800px;
+    height: 1200px;
     flex-grow: 10;
 
 }
@@ -32,4 +32,107 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.card1{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: white;
+    /* padding: 20px; */
+    margin: 20px;
+    border: 1px solid rgba(129, 129, 129,0.5);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card1title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+
+.card1items{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(121, 121, 121,0.5);
+}
+
+.card1heading{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.card1titleleft span{
+    font-weight:300;
+    color:  rgba(121, 121, 121,0.8);
+}
+
+.card1itemend{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1titleright{
+    color:blue;
+}
+
+.icon-plus{
+    background-color: gray;
+}
+
+.check{
+    display: flex;
+    gap: 5px;
+}
+
+.yellow, .green, .white{
+    width: 75px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: white;
+}
+
+.yellow{
+    background-color: rgb(245, 245, 31);
+
+}
+
+.green{
+    background-color: rgb(24, 212, 24);
+}
+
+.white{
+    background-color: rgb(201, 195, 195);
 }

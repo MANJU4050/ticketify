@@ -2,12 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="navleft">
         <div classname="navtitle">
-          <p>Overview</p>
+          <p>{props.title}</p>
         </div>
       </div>
 
